@@ -4,8 +4,8 @@ void mystrreplacechar (char *str[],const char c1,const char c2)
 	i = 0;
 	char a;
 	char b;
-	b = c1;
-	a = c2;
+	a = c1;
+	b = c2;
 	while ((*str)[i] != '\0')
 	{
 		if((*str)[i] == a)
